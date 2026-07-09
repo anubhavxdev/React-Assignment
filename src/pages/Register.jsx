@@ -67,10 +67,10 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0d0d0d] px-4 py-10 text-white">
-      <div className="mx-auto w-full max-w-lg rounded-2xl border border-zinc-800 bg-[#171717] p-6 shadow-xl">
+    <div className="min-h-screen bg-[#0d0d0d] px-3 py-4 text-white sm:px-4 sm:py-8">
+      <div className="mx-auto w-full max-w-lg rounded-2xl border border-zinc-800 bg-[#171717] p-4 shadow-xl sm:p-6">
         <div className="mb-6 border-b border-zinc-800 pb-4">
-          <h1 className="text-3xl font-bold">Register</h1>
+          <h1 className="text-2xl font-bold sm:text-3xl">Register</h1>
           <p className="mt-1 text-sm text-zinc-400">
             Submit your details to continue to the About page.
           </p>
@@ -128,7 +128,7 @@ const Register = () => {
 
           <button
             type="submit"
-            className="w-full rounded-lg bg-white px-4 py-3 font-semibold text-black transition hover:bg-zinc-200"
+            className="w-full rounded-lg bg-white px-4 py-3 font-semibold text-black transition hover:bg-zinc-200 sm:w-auto"
           >
             Submit
           </button>
